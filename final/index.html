@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+               *{margin:0px;
+               padding:0px;}
+               canvas{position: relative;
+                margin: 0 auto;
+                   align-items: center;
+               align-content: center;
+               align-self: center;}
+               #playagain{
+                   margin-top: 20rem;
+                   margin-left:-15rem;
+                position:absolute;
+                visibility: hidden;
+                background-color: white;
+        color: rgb(3, 3, 3);  
+        padding: 10px;
+        font-size: 16px;
+       transition: all 1s;
+        border: 2px solid black;
+      }
+      #playagain:hover { color: white;
+        background-color: rgb(3, 3, 3);
+       letter-spacing: 0.2rem;
+      }
+
+        </style>
+    </head>
+    <body>
+      <center><div id='box'><canvas></canvas><button id='playagain'>PlayAgain</button></div>
+    </center>  
+    
+
+<script src='lets2.js'></script>
+<script src='explain.js'></script>
+<script type="text/javascript" src = "level.json"></script>
+    </body>
+</html>
