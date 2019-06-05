@@ -533,7 +533,7 @@ var vely=CircleArray[j].distance*ghumao*Math.sin(Math.atan2(CircleArray[j].dista
     velx=(velx);
     vely=(vely);
 
-        if(LIFE==0){
+        if(LIFE==0&&!CircleArray[j].power){
         
         if((A-this.dx<CircleArray[j].x+CircleArray[j].radius-velx&&A+this.w+this.dx>CircleArray[j].x-CircleArray[j].radius+velx)&&
         
